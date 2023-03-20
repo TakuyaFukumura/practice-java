@@ -2,6 +2,8 @@ package logic;
 
 public class CompoundInterestCalculator {
     public void execute() {
+        System.out.println("----------------設定↓----------------");
+
         double initialInvestment = 500;
         System.out.printf("初期投資額：%.0f万円%n", initialInvestment);
 
@@ -17,7 +19,7 @@ public class CompoundInterestCalculator {
 //        double DividendIncreaseRate = 6;
 //        System.out.printf("増配率：%.1f%%%n", annualInterestRate); // 全体には適用できないため工夫が必要
 
-        System.out.println("----------------------------------");
+        System.out.println("----------------結果↓----------------");
 
         // 複利計算のための変数を初期化する
         double balance = initialInvestment;
