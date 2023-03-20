@@ -36,7 +36,7 @@ public class CompoundInterestCalculator {
 
         // 最終的な残高を表示する
         System.out.printf("投資期間が終了したときの残高は %.0f 万円です。%n", balance);
-        double dividendYield = 3;
-        System.out.printf("配当利回りを%.0f%%とすると、税引き前配当で%.0f万円受け取れます。%n", dividendYield, balance*(dividendYield/100));
+//        double dividendYield = 3;
+//        System.out.printf("配当利回りを%.0f%%とすると、税引き前配当で%.0f万円受け取れます。%n", dividendYield, balance*(dividendYield/100));
     }
 }
